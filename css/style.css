@@ -76,7 +76,7 @@ a:hover {
 }
 .trends figure{
     width: 22%;
-    display: inline;
+    display: inline-block;
     margin: 0 auto;
 }
 figcaption {
@@ -90,11 +90,22 @@ figcaption {
 .icon img {
     width: 260px;
     float: left;
-    margin-right: 2em;
+    margin-right: 0 2em 0 0;
 }
 .icon:last-child + p {
     float: left;
 }
 .featured-articles{
     display: none;
+}
+nav li:last-child{
+    display: none;
+}
+footer {
+    background-color: black;
+    color: white;
+}
+footer > p {
+    text-align: center;
+    padding: 8px 0 8px 0;
 }
