@@ -19,3 +19,13 @@ body{
 img { 
     width: 100%;
 }
+.logo {
+    width: 160px;
+    display: block;
+    margin: 0 auto;
+}
+.wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1.5em 0 1.3em 0;
+}
